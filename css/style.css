@@ -51,6 +51,11 @@ nav ul {
   background-color: gold;
 }
 
+.col-2 img {
+  width: 100%;
+  height: auto;
+}
+
 /* utils */
 
 .big-container {

@@ -37,3 +37,10 @@ nav ul {
   width: 100vw;
   height: calc(100vh - 80px);
 }
+
+/* utils */
+
+.big-container {
+  width: 1180px;
+  margin: auto;
+}

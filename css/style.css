@@ -60,6 +60,12 @@ nav ul {
   height: auto;
 }
 
+/* first section */
+
+.first-s {
+  margin-top: 200px;
+}
+
 /* utils */
 
 .big-container {
@@ -72,7 +78,7 @@ nav ul {
 
 .small-container {
   width: 1000px;
-  margin: 80px auto;
+  margin: auto;
   /* debug */
   background-color: pink;
   border: 1px solid black;

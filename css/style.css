@@ -5,3 +5,13 @@
   padding: 0;
   margin: 0;
 }
+
+/* header */
+
+header {
+  width: 100%;
+  height: 80px;
+  /* debug */
+  border: 1px solid black;
+  background-color: lightgray;
+}

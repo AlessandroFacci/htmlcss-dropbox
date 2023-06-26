@@ -38,9 +38,29 @@ nav ul {
   height: calc(100vh - 80px);
 }
 
+.col-1 {
+  width: calc(30%);
+  height: 500px;
+  /* debug */
+  background-color: deepskyblue;
+}
+
+.col-2 {
+  width: 70%;
+  height: 500px;
+  background-color: gold;
+}
+
 /* utils */
 
 .big-container {
   width: 1180px;
   margin: auto;
+  /* debug */
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
 }

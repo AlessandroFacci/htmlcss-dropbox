@@ -70,6 +70,14 @@ nav ul {
   border: 1px solid black;
 }
 
+.small-container {
+  width: 1000px;
+  margin: 80px auto;
+  /* debug */
+  background-color: pink;
+  border: 1px solid black;
+}
+
 .flex {
   display: flex;
 }

@@ -40,7 +40,7 @@ nav li {
   vertical-align: middle;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #828282;
 }
@@ -100,11 +100,20 @@ li button {
 /* first section */
 
 .first-s {
-  margin-top: 200px;
+  margin-top: 140px;
 }
 
 .first-s ul {
   list-style-type: none;
+}
+
+.first-s h2 {
+  font-size: 40px;
+}
+
+.first-s span {
+  padding-right: 30px;
+  font-size: 15px;
 }
 
 .form {
@@ -112,7 +121,8 @@ li button {
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
-  font-size: small;
+  font-size: 15px;
+  padding-bottom: 40px;
 }
 
 .flex-form {
@@ -133,7 +143,11 @@ li button {
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 25px;
+}
+
+.info-form h3 {
+  font-size: 20px;
 }
 
 .info-form li {
@@ -142,7 +156,18 @@ li button {
 
 .info-form button {
   padding: 8px 45px;
-  font-size: small;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.buy-now {
+  color: #0061ff;
+}
+
+.info-form hr {
+  width: 50px;
+  border: 1px solid gray;
+  margin-top: 20px;
 }
 
 .fa-check {
@@ -186,9 +211,6 @@ li button {
 .small-container {
   width: 1000px;
   margin: auto;
-  /* debug */
-  background-color: pink;
-  border: 1px solid black;
 }
 
 .flex {
@@ -203,4 +225,12 @@ li button {
 
 .button-blue {
   background-color: #0061ff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #828282;
 }

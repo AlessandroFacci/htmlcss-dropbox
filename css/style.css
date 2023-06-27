@@ -18,9 +18,6 @@ header {
   height: 80px;
   position: fixed;
   z-index: 1;
-  /* debug */
-  border: 1px solid black;
-  background-color: lightgray;
 }
 
 nav {

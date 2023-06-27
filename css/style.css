@@ -40,6 +40,17 @@ nav li {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+  color: #828282;
+}
+
+li button {
+  padding: 8px 17px;
+  border: none;
+  color: white;
+}
+
 /* main */
 
 .hero {
@@ -95,4 +106,14 @@ nav li {
 
 .flex {
   display: flex;
+}
+
+.button {
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+.button-blue {
+  background-color: #0061ff;
 }

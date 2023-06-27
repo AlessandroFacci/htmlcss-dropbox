@@ -27,6 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   line-height: 80px;
+  background-color: white;
 }
 
 nav ul {

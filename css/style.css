@@ -108,8 +108,16 @@ li button {
 }
 
 .form {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 34px);
   border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-form {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .header-form {

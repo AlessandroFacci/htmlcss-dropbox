@@ -109,7 +109,25 @@ li button {
 
 .form {
   width: calc(100% / 3);
-  border: 1px solid black;
+  border: 1px solid gray;
+}
+
+.header-form {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.info-form li {
+  padding: 10px 10px 10px 30px;
 }
 
 /* utils */

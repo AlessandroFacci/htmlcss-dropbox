@@ -112,6 +112,7 @@ li button {
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
+  font-size: small;
 }
 
 .flex-form {
@@ -140,7 +141,12 @@ li button {
 }
 
 .info-form button {
-  padding: 8px 35px;
+  padding: 8px 45px;
+  font-size: small;
+}
+
+.fa-check {
+  color: #0061ff;
 }
 
 .footer-form {
@@ -166,7 +172,8 @@ li button {
 .horizontal-form button {
   border: none;
   color: white;
-  padding: 8px 35px;
+  padding: 8px 45px;
+  font-size: small;
 }
 
 /* utils */

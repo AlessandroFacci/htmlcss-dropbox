@@ -103,6 +103,10 @@ li button {
   margin-top: 200px;
 }
 
+.first-s ul {
+  list-style-type: none;
+}
+
 /* utils */
 
 .big-container {

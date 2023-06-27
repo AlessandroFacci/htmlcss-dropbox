@@ -139,6 +139,10 @@ li button {
   padding: 10px 10px 10px 30px;
 }
 
+.info-form button {
+  padding: 8px 35px;
+}
+
 .footer-form {
   width: 1000px;
   border: 1px solid gray;
@@ -157,6 +161,12 @@ li button {
 #p {
   padding-left: 30px;
   padding-bottom: 30px;
+}
+
+.horizontal-form button {
+  border: none;
+  color: white;
+  padding: 8px 35px;
 }
 
 /* utils */

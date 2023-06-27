@@ -50,14 +50,14 @@ nav ul {
 }
 
 .col-1 {
-  width: calc(30%);
+  width: calc(100% / 3);
   height: 400px;
   /* debug */
   background-color: deepskyblue;
 }
 
 .col-2 {
-  width: 70%;
+  width: calc(2 * 100% / 3);
   height: 400px;
   background-color: gold;
 }

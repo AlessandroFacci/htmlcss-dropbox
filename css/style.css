@@ -32,6 +32,10 @@ nav ul {
   list-style-type: none;
 }
 
+nav li {
+  padding: 0 17px;
+}
+
 .nav-logo {
   vertical-align: middle;
 }

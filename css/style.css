@@ -275,9 +275,27 @@ li button {
 
 /* fourth section */
 
+.fourth-s {
+  margin-top: 200px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 150px;
+}
+
+.header-section h2 {
+  font-size: 40px;
+}
+
+.header-section a {
+  color: #0061ff;
+}
+
 .main-section {
   width: 100%;
-  margin-bottom: 140px;
 }
 
 .main-container {
@@ -326,6 +344,25 @@ li button {
 .center-box p {
   margin: 40px 40px;
   font-size: 12px;
+}
+
+.footer-section {
+  padding: 140px 0;
+}
+
+.footer-section .flex {
+  justify-content: space-between;
+}
+
+.footer-section h2 {
+  font-size: 40px;
+  color: #61082b;
+}
+
+.footer-section button {
+  padding: 10px 45px;
+  background-color: white;
+  border: none;
 }
 
 /* utils */

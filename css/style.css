@@ -345,3 +345,35 @@ li button {
   justify-content: center;
   align-items: center;
 }
+
+.green {
+  background-color: #a2d39b;
+}
+
+.borgundy {
+  background-color: #61082b;
+}
+
+.sky-blue {
+  background-color: #0293ce;
+}
+
+.red {
+  background-color: #ff1c1b;
+}
+
+.dark-red {
+  background-color: #d5001f;
+}
+
+.light-blue {
+  background-color: #b4d0e7;
+}
+
+.blue {
+  background-color: #0d2481;
+}
+
+.yellow {
+  background-color: #ffd830;
+}

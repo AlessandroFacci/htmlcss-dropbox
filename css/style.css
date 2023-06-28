@@ -297,6 +297,8 @@ li button {
 
 .small-box img {
   width: 50%;
+  filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(172deg)
+    brightness(129%) contrast(94%);
 }
 
 #border-green {

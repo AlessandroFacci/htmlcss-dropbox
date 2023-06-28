@@ -386,7 +386,9 @@ li button {
 
 footer {
   background-color: #000000;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: lightgray;
 }
 
 footer .flex {
@@ -401,6 +403,17 @@ footer li {
 footer h3 {
   margin-bottom: 20px;
   font-size: 25px;
+}
+
+footer hr {
+  width: 150px;
+  border: 1px solid white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+footer i {
+  margin-right: 5px;
 }
 
 /* utils */

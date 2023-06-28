@@ -117,7 +117,7 @@ li button {
 }
 
 .form {
-  width: calc(100% / 3 - 34px);
+  width: calc(100% / 3 - (100px / 3));
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -237,6 +237,29 @@ li button {
   border: 1px solid black;
   font-size: 16px;
   padding: 10px 12px;
+}
+
+/* third section */
+
+.third-s {
+  margin-bottom: 140px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  /* debug */
+  border: 1px solid black;
+}
+
+.card {
+  width: calc(100% / 3 - (100px / 3));
+  min-height: 300px;
+  /* debug */
+  border: 1px solid black;
+  background-color: pink;
 }
 
 /* utils */

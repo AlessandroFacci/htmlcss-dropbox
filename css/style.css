@@ -294,8 +294,13 @@ li button {
 .small-box {
   width: 50%;
   aspect-ratio: 1 / 1;
+  display: flex;
   /* debug */
   border: 1px solid black;
+}
+
+.small-box img {
+  width: 50%;
 }
 
 /* utils */
@@ -334,4 +339,9 @@ li button {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
 }

@@ -382,6 +382,27 @@ li button {
   margin-left: 300px;
 }
 
+/* footer */
+
+footer {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer li {
+  color: white;
+  line-height: 35px;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
 /* utils */
 
 .big-container {

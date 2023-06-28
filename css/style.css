@@ -365,6 +365,23 @@ li button {
   border: none;
 }
 
+/* request section */
+
+.requests-section {
+  margin-top: 140px;
+  line-height: 100px;
+  margin-bottom: 140px;
+}
+
+.requests-section h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.requests-section i {
+  margin-left: 300px;
+}
+
 /* utils */
 
 .big-container {

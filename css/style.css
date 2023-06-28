@@ -292,6 +292,14 @@ li button {
   border: 1px solid black;
 }
 
+.small-box {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  /* debug */
+  background-color: fuchsia;
+  border: 1px solid black;
+}
+
 /* utils */
 
 .big-container {
@@ -324,4 +332,8 @@ li button {
 
 .gray {
   color: #828282;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }

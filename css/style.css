@@ -288,7 +288,6 @@ li button {
   width: calc(100% / 3);
   aspect-ratio: 1 / 1;
   /* debug */
-  background-color: yellow;
   border: 1px solid black;
 }
 
@@ -296,7 +295,6 @@ li button {
   width: 50%;
   aspect-ratio: 1 / 1;
   /* debug */
-  background-color: fuchsia;
   border: 1px solid black;
 }
 

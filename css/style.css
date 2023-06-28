@@ -245,6 +245,11 @@ li button {
   margin-bottom: 140px;
 }
 
+.third-s h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
 .card-container {
   width: 100%;
   display: flex;
@@ -265,6 +270,26 @@ li button {
 .card h3 {
   padding-top: 12px;
   padding-bottom: 30px;
+  font-size: 25px;
+}
+
+/* fourth section */
+
+.main-section {
+  width: 100%;
+  margin-bottom: 140px;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.box {
+  width: calc(100% / 3);
+  aspect-ratio: 1 / 1;
+  /* debug */
+  background-color: yellow;
+  border: 1px solid black;
 }
 
 /* utils */

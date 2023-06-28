@@ -295,12 +295,14 @@ li button {
   width: 50%;
   aspect-ratio: 1 / 1;
   display: flex;
-  /* debug */
-  border: 1px solid black;
 }
 
 .small-box img {
   width: 50%;
+}
+
+#border-green {
+  border: 10px solid #d1e9cd;
 }
 
 /* utils */
